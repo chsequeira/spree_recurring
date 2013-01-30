@@ -73,8 +73,8 @@ Architecture
 
 ### Backend ###
 
-On the completion of an Order, if the variant.subscribable? is true, a
-subscription is created based on the line-item price of the variant. This includes
+On the completion of an Order, if `variant.subscribable?` is true, a
+subscription is created based on the line item price of the variant. This includes
 any price modifications due to variants amounts.
 
 A subscription is attached to:
@@ -119,13 +119,5 @@ The products marked as 'subscribable' have a price listed as X/month,day,year, d
 
  * spree/user/subscriptions - user list
 
-Installing
-----------
 
-add "gem 'spree\_recurring', :git => ..." to your gemfile.
-
-bundle install
-
-rails g spree\_recurring:install
-
-Copyright (c) 2012 [Sheena Artrip], released under the New BSD License
+Copyright (c) 2012 Sheena Artrip, released under the New BSD License
