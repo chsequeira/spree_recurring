@@ -1,5 +1,5 @@
 class CreateSubscriptions < ActiveRecord::Migration
-  def up
+  def change
     create_table :spree_subscriptions do |t|
       t.datetime :next_payment_at
       t.integer :duration
@@ -18,9 +18,5 @@ class CreateSubscriptions < ActiveRecord::Migration
 
       t.timestamps
     end
-  end
-
-  def down
-    drop_table :spree_subscriptions
   end
 end

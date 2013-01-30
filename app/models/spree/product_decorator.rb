@@ -12,5 +12,5 @@ Spree::Product.class_eval do
 end
 
 #TODO: removed in spree 1.2.x
-Spree::Variant.additional_fields += [ {:name => 'Subscribable', :only => [:product,:variant], :use => 'select', :value => lambda { |controller, field| [["False", false], ["True", true]]  } } ]
+# Spree::Variant.additional_fields += [ {:name => 'Subscribable', :only => [:product,:variant], :use => 'select', :value => lambda { |controller, field| [["False", false], ["True", true]]  } } ]
 
