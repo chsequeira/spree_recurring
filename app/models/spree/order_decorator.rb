@@ -1,6 +1,5 @@
 Spree::Order.class_eval do
   has_many :spree_subscriptions, :foreign_key => :created_by_order_id
-  
   belongs_to :parent_subscription, :foreign_key => :created_by_subscription_id, :class_name => "Spree::Subscription"
 
   def contains_subscription?
@@ -17,7 +16,7 @@ Spree::Order.class_eval do
       order.create_subscriptions
     end
   end
-    
+  
   def create_subscriptions
     order = self
     order.line_items.map do |line_item|
