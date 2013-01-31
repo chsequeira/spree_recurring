@@ -1,0 +1,6 @@
+Questions:
+	- Why is there a seperate model for expiration notices?
+	- Why seperate spree cancellation data?
+
+General:
+	- Looks like orders are created by subscription models
