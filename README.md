@@ -10,6 +10,7 @@ item-based subscription gem.
 Branches: 
 
  * master - current development (targeting spree 1.1.x)
+ * 1.2-dev - dev branch for spree 1.2.x
  * 1-1-stable - stable branch for spree 1.1.x (TODO)
  * 1-2-stable - stable branch for spree 1.2.x (TODO)
 
