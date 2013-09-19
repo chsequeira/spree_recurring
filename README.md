@@ -7,6 +7,11 @@ pre-1.0, 1.0.0.rc, and pre-deface. The name is changed to avoid
 conflits with the existing spree recurring billing gem and the spree
 item-based subscription gem.
 
+Plans
+-----
+
+The plans are to gradually update this to Spree 2.0.
+
 Branches: 
 
  * master - current development (targeting spree 1.1.x)
